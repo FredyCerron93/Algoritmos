@@ -39,5 +39,5 @@ int main()
     hm->put(31, 198);
 
     for (int i = 0; i < 32; i++)
-        cout << "[" << i << "]" << "->" << hm->get(i) << end;
+        cout << "[" << i << "]" << "->" << hm->get(i) << endl;
 }
